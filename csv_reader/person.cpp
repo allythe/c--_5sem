@@ -13,7 +13,7 @@ void Person::show()
     cout << "\nname: " << _name << " \nsurname: " << _surname << "\nage: " << _age << "\nlevel: " << _level << endl;
 }
 
-bool Person::has_error()
+bool  Person::has_error()
 {
     if ((_name.size()==0) || (_surname.size()==0) || (_age == NULL) || (_level == NULL))
         return true;

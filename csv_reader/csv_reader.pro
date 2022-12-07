@@ -4,8 +4,12 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
+        csvparcer.cpp \
         main.cpp \
-        person.cpp
+        person.cpp \
+        personrecord.cpp
 
 HEADERS += \
-    person.h
+    csvparcer.h \
+    person.h \
+    personrecord.h
